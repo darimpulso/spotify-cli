@@ -19,7 +19,8 @@
     "underscore":"*",
     "underscore.string":"*",
     "colors":"*",
-    "request":"*"
+    "request":"*",
+    "moment":"*"
   },
   "devDependencies": {
   },
