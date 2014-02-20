@@ -1,0 +1,36 @@
+{
+  "name": "Spot",
+  "version": "0.0.1",
+  "description": "Private Applicaton",
+  "scripts": {
+    "start": "node spotyfier"
+  },
+  "main": "./spotyfier.js",
+  "private": true,
+  "directories": {
+    "stored": "stored",
+    "temp": "temp"
+  },
+  "dependencies": {
+    "spotify-web":"*",
+    "lame":"*",
+    "speaker":"*",
+    "cli-table":"*",
+    "underscore":"*",
+    "underscore.string":"*",
+    "colors":"*",
+    "request":"*"
+  },
+  "devDependencies": {
+  },
+  "author": {
+    "name": "DAR IMPULSO",
+    "email": "daniel@darimpulso.com",
+    "url": "http://darimpulso.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.x",
+    "npm": ">=1.1.65"
+  }
+}
